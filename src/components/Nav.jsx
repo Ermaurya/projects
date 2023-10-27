@@ -180,7 +180,7 @@ const Nav = (props) => {
 
     <h1>Spacial Offer</h1>
     </Box>
-  <Box   color='#fc972a'>
+  <Box   color='#fc972a'mt={'19px'}>
   <Flex>
      <Text display="flex" alignItems="center"   noOfLines={[1, 2, 3]} fontSize='md'>
      
@@ -188,7 +188,7 @@ const Nav = (props) => {
      There are many benefits to a joint design and development system. Not only
     does it bring benefits to the design team, but it also brings benefits to
     </Text>
-    <Box className='res' h='3rem' bg='white'width={{ base: "100%" }}  >
+    <Box className='res' h='8rem' bg='white'width={{ base: "100%" }}  >
     <Image src='../giphy.gif' alt='Dan Abramov' className='imgstyle' />
     </Box>
    
