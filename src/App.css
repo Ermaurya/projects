@@ -46,7 +46,58 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+ .boxsize{
+  height: 558px!important;
+ }
+ .mainbox{
+  height: 45rem!important;
+ }
+ .mainsecond{
+  height: 43rem!important;
+ }
+ .overlap{
+  margin-top: 3rem!important;
+ }
+ .css-ry2qgf,.css-1plcf9o,.css-1nz4s6z{
+  width: 100%!important;
+ }
+ .chakra-text .css-3pzyr9{
+  font-size: 17px!important;
+ }
+ .css-1okn489{
+  padding: 30px!important;
+ }
+ .css-1xkxvif {
+  --chakra-line-clamp: 10!important;
+}
+.css-1puzrxq {
+font-size: 16px!important;
+}
+.css-kafhrw {
+  height: 7rem!important;
+  width: 153px!important;
+  /* display: flex!important;
+  justify-content: center!important;
+  align-items: center!important; */
+}
+.imgstyle{
+  height: 100%;
+  width: 100%;
+}
+.css-k008qs{
+  margin-bottom: 20px;
+    margin-top: 30px;
+}
+.css-vhc7ah{
+  height: 300px!important;
+}
 
+.boxsize{
+ position: relative;
+ top: -130px;
+}
+}
 
 /* 
 .card {

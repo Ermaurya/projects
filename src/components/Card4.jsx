@@ -76,18 +76,18 @@ const Card4 = () => {
     
     <Box  display="flex" alignItems="center" justifyContent="center"  width={{ base: "100%" }} >
 
-<Box sx={overlapcard} mt='6rem' boxShadow='dark-lg'  rounded='md'h='5rem' bg='white'width={{sm: "50%" }} display="flex" alignItems="center" justifyContent="center">
+<Box sx={overlapcard} mt='6rem' boxShadow='dark-lg' className='overlap' rounded='md'h='5rem' bg='white'width={{sm: "50%" }} display="flex" alignItems="center" justifyContent="center">
    Rewards
   </Box>
   </Box>
-<Box display="flex" alignItems="center" justifyContent="center" width={{ base: "100%" }}  h='42rem'>
+<Box display="flex" alignItems="center" justifyContent="center" width={{ base: "100%" }} className='mainbox' h='42rem'>
 
-<Box sx={card3}  boxShadow='dark-lg'  rounded='md'h='37rem' bg='white'width={{ base: "100%" }} display="flex" alignItems="center" justifyContent="center">
+<Box sx={card3}  boxShadow='dark-lg'className='mainsecond'  rounded='md'h='37rem' bg='white'width={{ base: "100%" }} display="flex" alignItems="center" justifyContent="center">
 
    <Box sx={card3a} w='90%' h='86%' >
 
    <Container  >
-   <Grid
+   <Grid className='boxsize'
   h='400px'
   templateRows='repeat(6, 1fr)'
   templateColumns='repeat(5, 1fr,1fr,1fr)'

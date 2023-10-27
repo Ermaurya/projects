@@ -86,7 +86,7 @@ const Card3 = () => {
 </Box> */}
  <Box sx={card3a} w='90%' h='86%' >
 
-<Container >
+<Container className='comt' >
  {/* <Box color='#fc972a' fontSize='22px'>
 
  <h1>Spacial Offer</h1>
