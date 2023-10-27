@@ -77,9 +77,13 @@ font-size: 16px!important;
 .css-kafhrw {
   height: 7rem!important;
   width: 153px!important;
-  /* display: flex!important;
+  display: flex!important;
   justify-content: center!important;
-  align-items: center!important; */
+  align-items: center!important;
+}
+  .comt{
+  position: relative;
+    top: -56px;
 }
 .imgstyle{
   height: 100%;
