@@ -54,14 +54,14 @@ const Card5 = () => {
     Rouls & Regulations
   </Box>
   </Box>
-<Box display="flex" alignItems="center" justifyContent="center" width={{ base: "100%" }}  h='30rem'>
+<Box display="flex" alignItems="center" justifyContent="center" width={{ base: "100%" }}  h='35rem'>
 
-<Box sx={card3}  boxShadow='dark-lg'  rounded='md'h='25rem' bg='white'width={{ base: "100%" }} display="flex" alignItems="center" justifyContent="center">
+<Box sx={card3}  boxShadow='dark-lg'  rounded='md'h='30rem' bg='white'width={{ base: "100%" }} display="flex" alignItems="center" justifyContent="center">
 
    <Box sx={card3a} w='90%' h='86%' position="relative"  >
 
   <Box  maxW='xl'>
-
+<Container>
    <OrderedList color='#fc972a' textAlign='justify' wordBreak={'break-all'}  p={2} fontSize={{ base: "16px", sm:"12px" , md: "10px", lg: "14px" }} width={{ base: "100%" }}>
   <ListItem wordBreak={'break-all'}  >
 
@@ -78,7 +78,7 @@ const Card5 = () => {
   <ListItem wordBreak={'break-all'}>Facilisis in pretium nisl aliquet in pretium nisl aliquet</ListItem>
   <ListItem wordBreak={'break-all'}>Facilisis in pretium nisl aliquet in pretium nisl aliquet</ListItem>
 </OrderedList>
-
+</Container>
   </Box>
    </Box>
   </Box>
