@@ -65,13 +65,13 @@ const Card3 = () => {
   return (
     <Container maxW='container.xl'>
         <VStack width='full'h='full'>
-        <Box  display="flex" alignItems="center" justifyContent="center"  width={{ base: "100%" }} >
+        <Box className='tab_head' display="flex" alignItems="center" justifyContent="center"  width={{ base: "100%" }} >
 
-<Box sx={overlapcard} mt='1rem' boxShadow='dark-lg'  rounded='md'h='5rem' bg='white'width={{sm: "50%" }} display="flex" alignItems="center" justifyContent="center">
+<Box  sx={overlapcard} mt='1rem' boxShadow='dark-lg'  rounded='md'h='5rem' bg='white'width={{sm: "50%" }} display="flex" alignItems="center" justifyContent="center">
    Heloking Reward
   </Box>
   </Box>
-      <Box   width={{ base: "100%" }}  h='38rem'>
+      <Box  className='box' width={{ base: "100%" }}  h='38rem'>
 
 <Box sx={card3}  flexDirection='column' boxShadow='dark-lg'  rounded='md'h='32rem' bg='white'width={{ base: "100%" }} >
    
