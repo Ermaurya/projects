@@ -97,7 +97,7 @@ const Card3 = () => {
 <Box sx={display} color='#fc972a' >
  {/* <AspectRatio ratio={1} w={24}> */}
 
- <Image src='../vipl.gif' alt='Dan Abramov' h='7rem'/>
+ <Image className='box_animation' src='../vipl.gif' alt='Dan Abramov' h='7rem'/>
         {/* </AspectRatio> */}
         <Text display="flex" alignItems="center" justifyContent="center">
    </Text>
