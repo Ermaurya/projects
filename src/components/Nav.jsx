@@ -134,14 +134,14 @@ const Nav = (props) => {
 </Box>
 
 
-<Box  display="flex" alignItems="center" justifyContent="center" width={{base: "100%" }}>
+<Box className='tab_head' display="flex" alignItems="center" justifyContent="center" width={{base: "100%" }}>
 
 <Box sx={overlapcard} mt='5rem' boxShadow='dark-lg'  rounded='md'h='5rem' bg='white'width={{  sm: "50%" }} display="flex" alignItems="center" justifyContent="center">
     Details
   </Box>
   </Box>
   
-<Box display="flex" alignItems="center" justifyContent="center"  width={{ base: "100%" }}  h='30rem'>
+<Box className='box' display="flex" alignItems="center" justifyContent="center"  width={{ base: "100%" }}  h='30rem'>
 
 <Box sx={card3}  boxShadow='dark-lg'  rounded='md'h='25rem' bg='white'width={{ base: "100%" }} display="flex" alignItems="center" justifyContent="center">
 
@@ -163,13 +163,13 @@ const Nav = (props) => {
    </Box>
   </Box>
 </Box>
-<Box  display="flex" alignItems="center" justifyContent="center"  width={{ base: "100%" }} >
+<Box className='tab_head' display="flex" alignItems="center" justifyContent="center"  width={{ base: "100%" }} >
 
 <Box sx={overlapcard} mt='5rem' boxShadow='dark-lg'  rounded='md'h='5rem' bg='white'width={{sm: "50%" }} display="flex" alignItems="center" justifyContent="center">
   Rewards
   </Box>
   </Box>
-<Box display="flex" alignItems="center" justifyContent="center" width={{ base: "100%" }}  h='30rem'>
+<Box className='box' display="flex" alignItems="center" justifyContent="center" width={{ base: "100%" }}  h='30rem'>
 
 <Box sx={card3}  boxShadow='dark-lg'  rounded='md'h='25rem' bg='white'width={{ base: "100%" }} display="flex" alignItems="center" justifyContent="center">
 
