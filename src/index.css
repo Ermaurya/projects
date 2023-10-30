@@ -19,3 +19,22 @@ ol{
     column-width: 320px;
     column-gap: 36px
 }
+
+/* animation card */
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(.5);
+  }
+}
+
+.box_animation {
+  animation: grow-and-shrink 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
